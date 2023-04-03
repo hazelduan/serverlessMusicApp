@@ -22,6 +22,8 @@ then run the web server by "python ./manage.py runserver"
    
 django-admin startapp frontend 
 
+add 'frontend.apps.FrontendConfig'in settings.py
+
 use npm init -y to create package.json
 use npm i webpack webpack-cli --save-dev to get package-lock.json
 
@@ -29,5 +31,5 @@ use npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-
 
 npm i react react-dom --save-dev   to install react
 
-npm  install @material-ui/core --force
+npm install @material-ui/core --force
 npm install @babel/plugin-proposal-class-properties --force
